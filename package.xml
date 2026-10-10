@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>traversable_node</name>
+  <version>0.0.1</version>
+  <description>Traversable corridor ROS 2 node.</description>
+  <maintainer email="game21rus@gmail.com">Vsevolod Egorov</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
